@@ -1,2 +1,3 @@
 # SummerCoding2024
-Coding Summer School 2024
+
+Welcome to the Coding Summer School 2024
