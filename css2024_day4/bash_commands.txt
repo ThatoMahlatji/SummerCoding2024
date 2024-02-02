@@ -1,0 +1,123 @@
+
+# Print statement
+echo "Hello World"
+
+# Create variable (Note: sensetive to spaces)
+x=5
+y=10
+
+# Basic arithmetic (Note: $ sign allows us to access variables)
+#----Syntax uses double brackets 
+sum=$((x+y))
+echo "The sum is: $sum"
+
+
+# curent working environment 
+pwd
+
+# check contents of the directory
+ls
+# To show all files 
+ls -a
+#-----list in list format
+ll
+#-----for more details
+ls -lh
+#-----to see contents of the enclosed folders
+ls -LR
+#-----to see contents of a specific folders
+ls foldername/
+#-----to view one folder up
+ls ..
+#-----to view two folders up(back)
+ls ../../
+#-----to view contents in specific directory
+ls ../Day2
+
+# change working directory (cd - change directory)
+cd ../Day2
+
+# Create a folder 
+mkdir sensor_data
+
+# Create file
+touch lvdt.txt
+touch vibration.data
+#------ copy file
+cp lvdt.txt lvdt_v2.txt (
+#------ rename
+mv vibration.data tunnel_vibration.data
+#------ delete file
+rm lvdt_v2.txt
+
+# Copy folder
+#--------(create folder)
+mkdir weatherstation 
+#--------(copy folder) 
+cp -r weatherstation/ weatherstation_2 
+# remove folder
+rm -r weatherstation_2 
+
+# Move file to directory
+mv [file] [directory]
+
+# Create an empty file 
+touch file.txt
+
+
+# Add contents to file
+echo "example text" >> file.txt
+>> - Appends a file (double)
+> - clears the file and rewrites (single)
+
+# Display the contents of a file (cat - concatenate)
+cat filename
+
+# To see the first 10 lines
+head filename
+
+# To see the last 10 lines
+tail filename
+
+# Moving mulitiple files 
+mv *.py python (move all python files)
+
+# Find and search for file
+find -name "filename*"
+#------------if you want to specify
+find -name "filename?"
+
+# Seach contents of a file
+grep -n "virginica" *.csv
+
+# Write ls context to file
+ls >> filename.txt (appends since double >>)
+
+# To see histor of commands 
+history
+# Write history to file
+history > history.txt
+
+# Open python
+winpty python
+
+# create shell script
+nano filename.sh
+
+# view contents of the file
+cat filename.sh
+
+# Run bash script
+chmod u+x filename.sh (run once) 
+./filename.sh 
+
+# Extracting data
+awk
+
+# Access to server
+ssh demo@194.108.117.16
+password
+
+# to copy file 
+scp demo@194.108.117.16:readme.txt . (. means current working directory)
+

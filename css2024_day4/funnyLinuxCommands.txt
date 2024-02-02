@@ -1,0 +1,13 @@
+UBUNTU terminal - funny commands
+
+https://itsfoss.com/funny-linux-commands/
+
+cmatrix
+
+sl -f
+
+fortune
+
+
+
+
