@@ -44,7 +44,7 @@ mkdir sensor_data
 touch lvdt.txt
 touch vibration.data
 #------ copy file
-cp lvdt.txt lvdt_v2.txt (
+cp lvdt.txt lvdt_v2.txt 
 #------ rename
 mv vibration.data tunnel_vibration.data
 #------ delete file
@@ -108,7 +108,7 @@ nano filename.sh
 cat filename.sh
 
 # Run bash script
-chmod u+x filename.sh (run once) 
+chmod u+x filename.sh (run once) [Make script executable]
 ./filename.sh 
 
 # Extracting data
