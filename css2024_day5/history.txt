@@ -1,0 +1,281 @@
+    1  pwdw
+    2  pwd
+    3  echo "Hello World"
+    4  x = 5
+    5  echo $((5+5))
+    6  $x=5
+    7  x=5
+    8  y=10
+    9  sum=$((x+y))
+   10  echo "The sum is: $sum"
+   11  sum=$(x+y)
+   12  sum=$((x+y))
+   13  pwd
+   14  ls
+   15  clear
+   16  ls -lh
+   17  ls -lr
+   18  cd ..
+   19  ls -lh
+   20  ls -lr
+   21  cd ..
+   22  ls -lh
+   23  cd Day3
+   24  ls
+   25  ls -lr
+   26  ls -LR
+   27  ls css2024_day3/
+   28  ls
+   29  clear
+   30  lsc..
+   31  ls ..
+   32  ls ../
+   33  ls ../../
+   34  ls ../..
+   35  ls ../
+   36  ls ../Day2
+   37  clear
+   38  ls ../
+   39  ls ../..
+   40  cd ../Day2
+   41  ls
+   42  ls
+   43  cd ../Day4
+   44  ls
+   45  cd css2024_day4/
+   46  mkdir sensor_data
+   47  cd sensor_data/
+   48  clear
+   49  touch lvdt.txt
+   50  touch vibration,data
+   51  touch vibration.data
+   52  cp lvdt.txt lvdt_v2.txt
+   53  mx vibration.data tunnel_vibration.data
+   54  mv vibration.data tunnel_vibration.data
+   55  rm lvdt_v2.txt 
+   56  l
+   57  sls
+   58  mkdir weather_station
+   59  ls
+   60  cp weather_station/ weather_station_2
+   61  cp -r weather_station/ weather_station_2
+   62  rm -r weather_station_2
+   63  ls
+   64  clera
+   65  clear
+   66  ls
+   67  mv tunnel_vibration.data tunnel_vibration2.data 
+   68  ls
+   69  mv tunnel_vibration2.data tunnel_vibration.data 
+   70  mv tunnel_vibration2.data weather_station/ 
+   71  mv tunnel_vibration.data weather_station/ 
+   72  ls
+   73  cd weather_station/
+   74  ls
+   75  mv tunnel_vibration.data ../ 
+   76  cd
+   77  ls
+   78  cd C:\Users\tjmah\Documents\CodingSummerSchool_2024\Day4\css2024_day4\sensor_data~
+   79  cd \Users\tjmah\Documents\CodingSummerSchool_2024\Day4\css2024_day4\sensor_data~
+   80  ls
+   81  cd Documents/
+   82  cd CodingSummerSchool_2024\Day4\css2024_day4\sensor_data~
+   83  cd CodingSummerSchool_2024\\Day4\\css2024_day4\\sensor_data
+   84  ls
+   85  clear
+   86  ls
+   87  cat lvdt.txt 
+   88  touch file.txt
+   89  ls
+   90  cat "example text" > file.txt
+   91  touch "example text" > file.txt
+   92  cat file.txt
+   93  echo "example text" > file.txt
+   94  cat file.txt
+   95  ls
+   96  mv file.txt weather_station/
+   97  ls
+   98  cd weather_station/
+   99  ls
+  100  rm file.txt
+  101  ls
+  102  mkdir folder
+  103  ls
+  104  rm -r folder
+  105  ls
+  106  clear
+  107  cd ..
+  108  ls
+  109  cd ../..
+  110  ls
+  111  mkdir Quizes
+  112  ls
+  113  mv *.pdf
+  114  ls
+  115  mv *.pdf Quizes/
+  116  clear
+  117  ls
+  118  ls ../Day2/css2024_day2/
+  119  ls ../Day2/css2024_day2/data_02/
+  120  cat ../Day2/css2024_day2/data_02/iris.csv 
+  121  head ../Day2/css2024_day2/data_02/iris.csv 
+  122  tail ../Day2/css2024_day2/data_02/iris.csv 
+  123  ls
+  124  ls css2024_day4/
+  125  cd css2024_day4/
+  126  nano stock_prices.csv
+  127  nano stock_prices.csv
+  128  ls
+  129  cd ../../Day2/css2024_day2/
+  130  ls
+  131  cd data_02/
+  132  ls
+  133  find -name "patient*"
+  134  clear
+  135  grep -n "viginica" *.csv
+  136  ls
+  137  grep -n "virginica" *.csv
+  138  clear
+  139  ls -a
+  140  ls
+  141  history
+  142  ls ../../../Day4/
+  143  ls ../../../Day4/css2024_day4/
+  144  cd ../../../Day4/css2024_day4/
+  145  history > command_history.txt
+  146  tail command_history.txt 
+  147  ll
+  148  clear
+  149  winpty python
+  150  winpty python
+  151  pip install pandas
+  152  pip install numpy
+  153  winpty python
+  154  python
+  155  winpty python
+  156  clear
+  157  ls
+  158  cd Day4/
+  159  ls
+  160  cd css2024_day4/
+  161  ls
+  162  nano stock_prices.csv 
+  163  nano stock_prices.csv 
+  164  clear
+  165  mkir Users
+  166  mkdir Users
+  167  cd Users/
+  168  mkdir name
+  169  cd name/
+  170  mkdir data
+  171  pwd
+  172  cd data/
+  173  pwd
+  174  clear
+  175  cd ../..
+  176  ls
+  177  cd name/
+  178  ls
+  179  cd data
+  180  clear
+  181  cd ~
+  182  pwd
+  183  cd Documents/CodingSummerSchool_2024/Day4/css2024_day4/Users/name/data
+  184  cd ../../..
+  185  ls
+  186  cd ..
+  187  clear
+  188  ls -F ../
+  189  ls
+  190  ls -F ../css2024_day4/
+  191  ls
+  192  ls -r F
+  193  ll
+  194  ls pwd
+  195  ls -r -F 
+  196  ls
+  197  ls -r -F 
+  198  clear
+  199  ls -F
+  200  ls -F Quizes/
+  201  cd Quizes/
+  202  cd ..
+  203  clear
+  204  ls
+  205  cd css2024_day4/
+  206  ls
+  207  touch statstics.txt
+  208  ls
+  209  mv statstics.txt statistics.txt
+  210  ls
+  211  clear
+  212  mkdir alkanes
+  213  cd alkanes/
+  214  touch ethane.pdb
+  215  ls
+  216  touch propane.pdb
+  217  touch pentane.pdb
+  218  touch methane.pdb
+  219  touch octane.pdb
+  220  touch cubane.pdb
+  221  clear
+  222  ls
+  223  find -name "?thane"
+  224  ls
+  225  find -name "*thane"
+  226  ls "?thane"
+  227  ls ethane.*
+  228  ls *t*ane.pdb
+  229  ls *t?ne.*
+  230  ls *t??ne.pdb
+  231  clear
+  232  cd ../..
+  233  ls
+  234   cd css2024_day4/
+  235  nano myscript.sh
+  236  nano myscript.sh
+  237  nano myscript.sh
+  238  cat myscript.sh
+  239  chmod u+x myscript.sh 
+  240  ./myscript.sh 
+  241  ls
+  242  chmod +x myscript.sh 
+  243  ./myscript.sh 
+  244  nano myscript.sh
+  245  chmod u+x myscript.sh 
+  246  ./myscript.sh 
+  247  nano pythonfile.py
+  248  ssh demo@194.108.117.16
+  249  scp demo@194.108.117.16:readme.txt .
+  250  ls
+  251  cat readme.txt 
+  252  clear
+  253  cd ../..
+  254  ls 
+  255  cd Day5
+  256  ls
+  257  cd css2024_day5/
+  258  ls
+  259  clear
+  260  mkdir my_new_project && cd my_new_project && nano myscript.sh
+  261  ls
+  262  ./myscript.sh 
+  263  nano myscript.sh
+  264  ./myscript.sh 
+  265  ls -al | grep "script"
+  266  clear
+  267  cat myscript.sh | grep "I can do it" && echo "The phrase 'I can do it' has been found successfully"
+  268  cat myscript.sh | grep "I can do it" && echo -e "The phrase 'I can do it' has been found successfully"
+  269  cat myscript.sh | grep "I can do it" && echo -e "The phrase found successfully"
+  270  nano myscript.sh
+  271  cat myscript.sh | grep "I can do this" && echo -e "The phrase 'I can do this' has been found successfully"
+  272  pico example.sh
+  273  nano example.sh
+  274  ls
+  275  ./myscript.sh 
+  276  ./example.sh 
+  277  chmod +x example.sh 
+  278  ./example.sh 
+  279  nano example.sh
+  280  clear
+  281  history > ../history.txt

@@ -1,0 +1,14 @@
+## Logical and (&&)
+#----- excute multiple Bash commands at once
+E.g.
+mkdir my_new_project && cd my_new_project && nano myscript.sh
+(make_directory - change directory - create script and edit)
+
+# View scripts with name "name"
+ls -al | grep "script"
+
+E.g.
+cat myscript.sh | grep "I can do this" && echo -e "The phrase 'I can do this' has been found successfully"
+
+
+
