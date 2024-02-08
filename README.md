@@ -17,3 +17,5 @@ Day 6 - 2024/02/05 (Machine Learning Day1)
 Day 7 - 2024/02/06 (Machine Learning Day2)
 
 Day 8 - 2024/02/07 (Probability and Statistics)
+
+Day 9 - 2024/02/08 (ODEs and Scipy)
